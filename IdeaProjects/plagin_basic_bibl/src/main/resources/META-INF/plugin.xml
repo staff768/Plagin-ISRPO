@@ -1,0 +1,21 @@
+<idea-plugin>
+    <id>cpp.library.plugin</id>
+    <name>Cpp Library Plugin</name>
+    <version>1.0</version>
+    <vendor email="your-email@example.com" url="your-website.com">Your Name</vendor>
+
+    <description>
+        A plugin to open HTML files related to C++ libraries.
+    </description>
+
+    <actions>
+        <action
+                id="OpenHtmlAction"
+                class="cpp_lib_plugin.OpenHtmlAction"
+                text="Open HTML"
+                description="Open an HTML page in a browser">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+            <keyboard-shortcut keymap="Default" first-keystroke="ctrl alt H"/>
+        </action>
+    </actions>
+</idea-plugin>
